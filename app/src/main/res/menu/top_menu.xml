@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menuHome"
+        android:icon="@drawable/ic_email_black_24dp"
+        android:title="@string/home"
+        app:showAsAction="always|withText"></item>
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menuAbout"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="@string/about"></item>
+
+        <item
+            android:id="@+id/menuLogout"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="@string/logout"></item>
+
+        <item
+            android:id="@+id/menuExit"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="@string/exit"></item>
+
+        <item
+            android:id="@+id/menuChangepassword"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="@string/change_password">
+
+        </item>
+
+        <item
+            android:id="@+id/MenuTab"
+            android:title="@string/tab_fragment"
+            android:icon="@drawable/ic_email_black_24dp">
+            
+        </item>
+
+        <item
+            android:id="@+id/MenuTable"
+            android:title="@string/table_fragment"
+            android:icon="@drawable/ic_email_black_24dp">
+
+        </item>
+
+        <item
+            android:id="@+id/MenuScanner"
+            android:title="@string/scanner"
+            android:icon="@drawable/ic_email_black_24dp">
+
+        </item>
+
+        <item
+            android:id="@+id/MenuGoogleMap"
+            android:title="@string/google_map"
+            android:icon="@drawable/ic_email_black_24dp">
+
+        </item>
+
+        <item
+            android:id="@+id/MenuProgresDialog"
+            android:title="@string/progress_dialog"
+            android:icon="@drawable/ic_email_black_24dp">
+
+        </item>
+
+        <item
+            android:id="@+id/MenuListRegister"
+            android:title="@string/menu_list_register"
+            android:icon="@drawable/ic_email_black_24dp">
+
+        </item>
+
+
+    </group>
+</menu>

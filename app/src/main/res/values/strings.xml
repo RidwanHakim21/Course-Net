@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="telepon">Telepon</string>
+    <string name="ok">OK</string>
+    <string name="hello_world">Hello World</string>
+    <string name="Email_is_required">Email is required</string>
+    <string name="password_is_required">Password is required</string>
+    <string name="nama">Name</string>
+    <string name="camera">Camera</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="exit">Exit</string>
+    <string name="title_exit">Confirm Exit</string>
+    <string name="yes">Yes</string>
+    <string name="no">NO</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="Kota">
+        <item>Jakarta</item>
+        <item>Surabaya</item>
+        <item>Malang</item>
+        <item>Bali</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_password">Change Password</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="konfirmasi_password_baru">Konfirmasi Password Baru</string>
+    <string name="tab_fragment">Tab Fragment</string>
+    <string name="table_fragment">Table Fragment</string>
+    <string name="scanner">Scanner</string>
+    <string name="google_map">Google Map</string>
+    <string name="progress_dialog">Progress Dialog</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="menu_list_register">Menu List Register</string>
+</resources>
